@@ -1,25 +1,25 @@
-/* General body styling */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Stylish gradient */
+    background: linear-gradient(135deg, #2c3e50, #4ca1af); 
     color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
-/* Form container */
+
 form {
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 12px;
     display: inline-block;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 1200px;
-    backdrop-filter: blur(10px); /* Frosted glass effect */
+    backdrop-filter: blur(10px); 
 }
 
-/* Label styling */
+
 label {
     display: block;
     margin-bottom: 6px;
@@ -27,11 +27,12 @@ label {
     color: #f8f9fa;
 }
 
-/* Dropdown styling */
+
 select {
     width: 100%;
-    padding: 10px;
-    font-size: 15px;
+    padding: 5px;
+    font-size: 10px;
+    height: 30px;
     margin-top: 3px;
     border: 2px solid #ffffff;
     border-radius: 6px;
@@ -45,17 +46,17 @@ select:hover {
     border-color: #4ca1af;
 }
 
-/* Grid layout for dropdowns */
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 components per row */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
     max-width: 100%;
     margin: auto;
     padding: 20px;
 }
 
-/* Each dropdown item */
+
 .grid-item {
     display: flex;
     flex-direction: column;
@@ -70,19 +71,18 @@ select:hover {
     transform: scale(1.05);
 }
 
-/* Submit button container */
 .submit-container {
     display: flex;
     justify-content: center;
     margin-top: 25px;
 }
 
-/* Submit button */
+
 button {
     padding: 14px 30px;
     font-size: 17px;
     font-weight: bold;
-    background: #ff5733; /* Vibrant button color */
+    background: #ff5733; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -94,4 +94,49 @@ button {
 button:hover {
     background: #c70039;
     transform: scale(1.1);
+}
+
+details {
+    display: block; 
+    margin-bottom: 10px; 
+    width: fit-content; 
+    font-size: 14px;
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  details ul {
+    margin: 0;
+    padding-left: 20px; 
+  }
+   
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns them vertically */
+    gap: 30px; /* Space between submit and result containers */
+}
+
+.submit-box,
+.result-box {
+    padding: 20px;
+}
+
+.submit-box {
+    background-color: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.result-box {
+    background-color: linear-gradient(135deg, #2c3e50, #4ca1af);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }

@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pickle
 import numpy as np
 import logging
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 # Configure logging
 logging.basicConfig(filename="mushroom_classification.log", level=logging.INFO,
@@ -17,6 +19,8 @@ with open("mushroom_model.pkl", "rb") as f:
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
+        if not request.is_json:
+            return jsonify({"error": "415 Unsupported Media Type: Please send JSON"}), 415
         data = request.get_json()
 
         # Convert to NumPy array safely
@@ -30,7 +34,7 @@ def predict():
 
         # Make prediction
         prediction = model.predict(input_features)
-        result = "edible" if prediction[0] == 0 else "poisonous"
+        result = "Edible" if prediction[0] == 0 else "Poisonous"
 
         return jsonify({"prediction": result})
 

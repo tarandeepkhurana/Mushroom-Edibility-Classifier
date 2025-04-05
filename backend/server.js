@@ -1,18 +1,26 @@
+import path from "path";
+import { fileURLToPath } from "url";
 import express, { json } from "express";
-import serveStatic from "serve-static"; // Correct way to serve static files
 import axios from "axios";
 
 const app = express();
 const PORT = 5500;
 
-// Middleware
-app.use(json());
-app.use(serveStatic("public")); // Serve frontend files correctly
+// Fix for __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Serve static files from the "frontend" folder
+app.use(express.static(path.join(__dirname, "../frontend")));
+
+// Serve index.html for root URL "/"
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend/index.html"));
+});
 
 // Route to handle prediction requests
 app.post("/predict", async (req, res) => {
     try {
-        // Send request to Flask API
         const response = await axios.post("http://127.0.0.1:5000/predict", req.body);
         res.json(response.data);
     } catch (error) {
@@ -21,5 +29,5 @@ app.post("/predict", async (req, res) => {
     }
 });
 
-// Start server
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+// Start the server
+app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));

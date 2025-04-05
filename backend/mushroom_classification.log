@@ -9,3 +9,116 @@
 2025-03-18 18:24:31,335 - INFO - 127.0.0.1 - - [18/Mar/2025 18:24:31] "POST /predict HTTP/1.1" 200 -
 2025-03-18 18:24:37,017 - INFO - 127.0.0.1 - - [18/Mar/2025 18:24:37] "POST /predict HTTP/1.1" 200 -
 2025-03-18 18:24:42,510 - INFO - 127.0.0.1 - - [18/Mar/2025 18:24:42] "POST /predict HTTP/1.1" 200 -
+2025-03-19 23:21:25,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 23:21:25,062 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 23:21:25,065 - INFO -  * Restarting with stat
+2025-03-19 23:21:27,130 - WARNING -  * Debugger is active!
+2025-03-19 23:21:27,137 - INFO -  * Debugger PIN: 117-947-731
+2025-03-19 23:24:06,558 - INFO - 127.0.0.1 - - [19/Mar/2025 23:24:06] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 23:24:17,681 - INFO - 127.0.0.1 - - [19/Mar/2025 23:24:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-20 21:32:23,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 21:32:23,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 21:32:23,186 - INFO -  * Restarting with stat
+2025-03-20 21:32:24,742 - WARNING -  * Debugger is active!
+2025-03-20 21:32:24,748 - INFO -  * Debugger PIN: 117-947-731
+2025-03-20 21:36:45,782 - INFO - 127.0.0.1 - - [20/Mar/2025 21:36:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-20 21:41:21,981 - INFO - 127.0.0.1 - - [20/Mar/2025 21:41:21] "POST /predict HTTP/1.1" 200 -
+2025-03-20 21:46:53,287 - INFO - 127.0.0.1 - - [20/Mar/2025 21:46:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-20 21:50:00,743 - INFO -  * Detected change in 'C:\\Users\\taran\\OneDrive\\Mushroom_Classifier\\backend\\app.py', reloading
+2025-03-20 21:50:00,990 - INFO -  * Restarting with stat
+2025-03-20 21:50:03,877 - WARNING -  * Debugger is active!
+2025-03-20 21:50:03,881 - INFO -  * Debugger PIN: 117-947-731
+2025-03-20 21:50:34,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 21:50:34,004 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 21:50:34,007 - INFO -  * Restarting with stat
+2025-03-20 21:50:35,696 - WARNING -  * Debugger is active!
+2025-03-20 21:50:35,699 - INFO -  * Debugger PIN: 117-947-731
+2025-03-20 21:51:26,515 - INFO - 127.0.0.1 - - [20/Mar/2025 21:51:26] "[31m[1mPOST /predict HTTP/1.1[0m" 415 -
+2025-03-20 21:55:55,860 - INFO - 127.0.0.1 - - [20/Mar/2025 21:55:55] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 21:59:12,619 - INFO -  * Detected change in 'C:\\Users\\taran\\OneDrive\\Mushroom_Classifier\\backend\\app.py', reloading
+2025-03-20 21:59:13,032 - INFO -  * Restarting with stat
+2025-03-20 21:59:15,387 - WARNING -  * Debugger is active!
+2025-03-20 21:59:15,390 - INFO -  * Debugger PIN: 117-947-731
+2025-03-20 21:59:29,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 21:59:29,223 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 21:59:29,225 - INFO -  * Restarting with stat
+2025-03-20 21:59:31,078 - WARNING -  * Debugger is active!
+2025-03-20 21:59:31,079 - INFO -  * Debugger PIN: 117-947-731
+2025-03-20 22:00:19,608 - INFO - 127.0.0.1 - - [20/Mar/2025 22:00:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:00:19,623 - INFO - 127.0.0.1 - - [20/Mar/2025 22:00:19] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:33,669 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:33] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:05:33,682 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:33] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:34,430 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:34] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:39,610 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:39] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:05:39,621 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:39] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:45,760 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:45] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:05:45,771 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:45] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:49,866 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:49] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:54,290 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:05:54,303 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:54] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:05:57,302 - INFO - 127.0.0.1 - - [20/Mar/2025 22:05:57] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:01,023 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:06:01,034 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:01] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:11,227 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:11] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:06:11,237 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:11] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:18,154 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:18] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:06:18,163 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:18] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:23,220 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:06:23,228 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:23] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:27,305 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:27] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:32,332 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-20 22:06:32,343 - INFO - 127.0.0.1 - - [20/Mar/2025 22:06:32] "POST /predict HTTP/1.1" 200 -
+2025-03-20 22:06:59,454 - INFO -  * Detected change in 'C:\\Users\\taran\\OneDrive\\Mushroom_Classifier\\backend\\app.py', reloading
+2025-03-20 22:06:59,661 - INFO -  * Restarting with stat
+2025-03-20 22:07:01,649 - WARNING -  * Debugger is active!
+2025-03-20 22:07:01,656 - INFO -  * Debugger PIN: 117-947-731
+2025-03-21 18:20:51,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 18:20:51,659 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 18:20:51,662 - INFO -  * Restarting with stat
+2025-03-21 18:20:53,270 - WARNING -  * Debugger is active!
+2025-03-21 18:20:53,277 - INFO -  * Debugger PIN: 117-947-731
+2025-03-21 18:59:11,517 - INFO - 127.0.0.1 - - [21/Mar/2025 18:59:11] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-21 18:59:11,560 - INFO - 127.0.0.1 - - [21/Mar/2025 18:59:11] "POST /predict HTTP/1.1" 200 -
+2025-03-23 10:16:45,104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-23 10:16:45,108 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 10:16:45,111 - INFO -  * Restarting with stat
+2025-03-23 10:16:46,987 - WARNING -  * Debugger is active!
+2025-03-23 10:16:46,993 - INFO -  * Debugger PIN: 117-947-731
+2025-03-23 10:17:18,356 - INFO - 127.0.0.1 - - [23/Mar/2025 10:17:18] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 10:17:18,361 - INFO - 127.0.0.1 - - [23/Mar/2025 10:17:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-23 10:21:47,666 - INFO - 127.0.0.1 - - [23/Mar/2025 10:21:47] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 10:21:47,674 - INFO - 127.0.0.1 - - [23/Mar/2025 10:21:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-23 10:32:56,225 - INFO - 127.0.0.1 - - [23/Mar/2025 10:32:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 10:32:56,234 - INFO - 127.0.0.1 - - [23/Mar/2025 10:32:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-23 10:38:29,904 - INFO - 127.0.0.1 - - [23/Mar/2025 10:38:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 10:38:29,986 - INFO - 127.0.0.1 - - [23/Mar/2025 10:38:29] "POST /predict HTTP/1.1" 200 -
+2025-03-23 10:38:41,000 - INFO - 127.0.0.1 - - [23/Mar/2025 10:38:41] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 10:38:41,012 - INFO - 127.0.0.1 - - [23/Mar/2025 10:38:41] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:35:41,752 - INFO - 127.0.0.1 - - [23/Mar/2025 11:35:41] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:35:41,785 - INFO - 127.0.0.1 - - [23/Mar/2025 11:35:41] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:36:57,592 - INFO - 127.0.0.1 - - [23/Mar/2025 11:36:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:36:57,605 - INFO - 127.0.0.1 - - [23/Mar/2025 11:36:57] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:37:58,238 - INFO - 127.0.0.1 - - [23/Mar/2025 11:37:58] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:37:58,258 - INFO - 127.0.0.1 - - [23/Mar/2025 11:37:58] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:46:03,139 - INFO - 127.0.0.1 - - [23/Mar/2025 11:46:03] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:46:03,157 - INFO - 127.0.0.1 - - [23/Mar/2025 11:46:03] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:47:07,318 - INFO - 127.0.0.1 - - [23/Mar/2025 11:47:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:47:07,334 - INFO - 127.0.0.1 - - [23/Mar/2025 11:47:07] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:49:14,104 - INFO - 127.0.0.1 - - [23/Mar/2025 11:49:14] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:49:14,121 - INFO - 127.0.0.1 - - [23/Mar/2025 11:49:14] "POST /predict HTTP/1.1" 200 -
+2025-03-23 11:52:25,167 - INFO - 127.0.0.1 - - [23/Mar/2025 11:52:25] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-23 11:52:25,182 - INFO - 127.0.0.1 - - [23/Mar/2025 11:52:25] "POST /predict HTTP/1.1" 200 -
+2025-03-26 22:31:57,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 22:31:57,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-26 22:31:57,041 - INFO -  * Restarting with stat
+2025-03-26 22:31:58,861 - WARNING -  * Debugger is active!
+2025-03-26 22:31:58,867 - INFO -  * Debugger PIN: 117-947-731
+2025-03-26 22:34:16,855 - INFO - 127.0.0.1 - - [26/Mar/2025 22:34:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-26 22:34:16,901 - INFO - 127.0.0.1 - - [26/Mar/2025 22:34:16] "POST /predict HTTP/1.1" 200 -
