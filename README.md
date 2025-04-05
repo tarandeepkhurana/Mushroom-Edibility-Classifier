@@ -1,4 +1,4 @@
-**#Mushroom-Edibility-Classifier** 
+# Mushroom-Edibility-Classifier 
 
 **Project Overview:** A machine learning model built using the Random Forest Classifier to predict whether a mushroom is edible or poisonous based on its physical features.
 
